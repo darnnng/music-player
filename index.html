@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audioplayer</title>
+    <link rel="icon" href="assets/a.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <audio src="assets/music/beyonce.mp3" id="audio"></audio>
+    <img src="assets/lemonade.png" alt="song-picture" class="background">
+
+    <div class="container">
+        <div class="rectangle">
+        <img src="assets/lemonade.png" alt="song-picture" class="playerpicture">
+
+        <div class="controls audio-player">
+
+            <button class="playBtn"></button>
+            <div class="artist">Beyonce
+            </div>
+            <div class="song">Don't Hurt Yourself</div>
+            <img src="assets/forward.png" alt="next-song" class="forwardBtn" >
+            <img src="assets/backward.png" alt="previous-song" class="backwardBtn" >
+
+            <div class="timeline-div">
+
+            <input type="range" class="timeline" id="myrange" min="0" max="" value="0" />
+           </div>
+
+
+          <div class="time">  
+            <div class="current-time">0:00</div>
+            <div class="duration-time">3:52</div>
+          </div>  
+        </div>
+        </div>
+    </div>
+
+    <footer> 
+        <div class="downfooter">
+         <div class="textdownfooter">© <span style="padding-left:20px;padding-right:20px;">2022</span><a href="https://github.com/darnnng" class="footerlink"> darnnng</a></div>
+         <a href="https://rs.school/js-stage0/" class="footerlink" style="padding-left:20px;">Rolling Scopes School</a>
+         <div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html> 
